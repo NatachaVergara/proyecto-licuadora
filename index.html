@@ -5,25 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Proyecto Licuadora</title>
+    <title>Mostrar en Netlify</title>
 </head>
 
 <body>
-    <div class="container">
-        <div id="blender" class="blender ">
-            <div id="blender-button" class="blender-button" onclick="controlarLicuadora()"></div>
-        </div>
-    </div>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Porfolio</a></li>
+                <li><a href="#licuadora">Licuadora</a></li>
+                <li><a href="#calculadora">Calculadora</a></li>
+            </ul>
+        </nav>
+        <div class="ola"></div>
+    </header>
 
-    <audio id="blender-sound" src="./sounds/sound_licuadora.mp3" type="audio/mpeg" loop></audio>
-    <audio id="blender-button-sound" src="./sounds/sound_botonLicuadora.mp3" type="audio/mpeg" ></audio>
+    <main>
+        <section>
+            <h1>Proyectos y sus respectivos tutoriales</h1>
+            <article class="section-licuadora" id="licuadora">
+                <div class="imagen-licuadora"></div>
+                <div class="link-licuadora"></div>
+            </article>
+            <article class="section-calculadora" id="calculadora">
+                <div class="imagen-calculadora"></div>
+                <div class="link-calculadora"></div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h3>&copy; Natacha Vergara 2022</h3>
+    </footer>
 
 
-    <a href="https://api.whatsapp.com/send?phone=+541124971986&text=Hola, Nececito mas informacion!">Envíanos un mensaje de
-        WhatsApp</a>
 
-    <script src="./js/script.js"></script>
+    <script type="module" src="./js/index.js"></script>
 </body>
 
 </html>
