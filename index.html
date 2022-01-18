@@ -5,41 +5,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Mostrar en Netlify</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Porfolio</a></li>
-                <li><a href="./licuadora.html">Licuadora</a></li>
-                <li><a href="./calculadora.html">Calculadora</a></li>
-            </ul>
-        </nav>
-        <div class="ola"></div>
-    </header>
+    <div class="container">
+        <header>
+            <div class="menu" id="menu">
+                <img src="./img/menu.png" alt="" srcset="">
+            </div>
+            <nav class="navbar ">
+                <!-- aca va el active -->
+                <ul>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#licuadora">Licuadora</a></li>
+                    <li><a href="#calculadora">Calculadora</a></li>
+                </ul>
+            </nav>
 
-    <main>
+        </header>
+
+        <main>
+            <div class="section-title">
+                <h1>Proyectos y Tutoriales</h1>
+            </div>
+
         <section>
-            <h1>Proyectos y sus respectivos tutoriales</h1>
-            <article class="section-licuadora" id="licuadora">
-                <div class="imagen-licuadora"></div>
-                <div class="link-licuadora"></div>
-            </article>
-            <article class="section-calculadora" id="calculadora">
-                <div class="imagen-calculadora"></div>
-                <div class="link-calculadora"></div>
-            </article>
+            <div class="container-section">
+                <div class="card">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="https://cdn-icons.flaticon.com/png/512/2253/premium/2253385.png?token=exp=1642538107~hmac=9f595083145116a6ece0d715175b9530">
+                        </div>
+                        <div class="contentBx">
+                            <h3>Lion<br><span>Happy Birthday</span></h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li>
+                            <a href="">happy</a>
+                        </li>
+                        <li>
+                            <a href="">birth</a>
+                        </li>
+                        <li>
+                            <a href="">day</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="https://cdn-icons.flaticon.com/png/512/1011/premium/1011570.png?token=exp=1642538213~hmac=4424ebd9a16664204bae2020bf95858c">
+                        </div>
+                        <div class="contentBx">
+                            <h3>Frog<br><span>Happy Birthday</span></h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li>
+                            <a href="">happy</a>
+                        </li>
+                        <li>
+                            <a href="">birth</a>
+                        </li>
+                        <li>
+                            <a href="">day</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="https://image.flaticon.com/icons/png/256/4213/4213641.png">
+                        </div>
+                        <div class="contentBx">
+                            <h3>Giraffe<br><span>Happy Birthday</span></h3>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li>
+                            <a href="">happy</a>
+                        </li>
+                        <li>
+                            <a href="">birth</a>
+                        </li>
+                        <li>
+                            <a href="">day</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
-    </main>
+        </main>
+
+
+
+    </div>
     <footer>
         <h3>&copy; Natacha Vergara 2022</h3>
     </footer>
 
 
 
-    <script type="module" src="./js/index.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

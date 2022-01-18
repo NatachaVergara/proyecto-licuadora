@@ -1,0 +1,278 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+body{
+    background-image: url('../img/bg-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-title{
+    
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;    
+    padding: 15px;
+    height: 100vh;
+}
+
+header{
+    position:fixed;
+    width:20%;
+    height: 80vh;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+	margin: 20px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+	border-radius: 15px;
+   
+}
+
+.menu{
+    display: none;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+   list-style-type:none;
+   text-decoration: none;
+   position: relative;
+   top: 10em;
+   padding: 1em;
+   
+}
+
+.navbar a{  
+    text-decoration: none;
+    color: #181616;
+    font-size: 2em;
+    /* background: #333333; */
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    
+}
+
+.navbar a:hover{  
+   text-decoration: underline;
+}
+
+main, footer{    
+    margin-left: 40%;
+}
+
+section::before {
+	content: '';
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+
+section::after {
+	content: '';
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1; 
+}
+
+
+.container-section {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 40px 0;
+}
+
+.container-section .card {
+	position: relative;
+	width: 300px;
+	height: 400px;
+	background: rgba(255, 255, 255, 0.05);
+	margin: 20px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.container-section .card .content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+}
+
+.container-section .card:hover .content {
+	transform: translateY(-20px);
+}
+
+.container-section .card .content .imgBx {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.container-section .card .content .imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container-section .card .content .contentBx h3 {
+	color: rgb(17, 17, 17);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+}
+
+.container-section .card .content .contentBx h3 span {
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: initial;
+}
+
+.container-section .card .sci {
+	position: absolute;
+	bottom: 50px;
+	display: flex;
+}
+
+.container-section .card .sci li {
+	list-style: none;
+	margin: 0 10px;
+	transform: translateY(40px);
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.container-section .card:hover .sci li {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.container-section .card .sci li a {
+	color: rgb(17, 17, 17);
+	font-size: 20px;
+}
+
+
+footer{
+    position: absolute;
+    top:1000px;
+}
+
+
+footer h3{
+    font-size: 1.5em;
+    text-align: right;
+    padding: 15px;
+}
+
+
+@media screen and (max-width: 500px) {
+   body{    
+    background-size:cover;
+    background-repeat: repeat;
+    background-position:center ;   
+    
+    }
+
+
+
+    .container{
+        display: flex;
+        flex-direction: column; 
+        padding: 0px;
+         
+
+    }
+    .menu{
+        display:inline;
+        float: right; 
+        padding: 10px;
+        background-color:rgb(13, 14, 13);
+        width: 100%;
+        
+       
+        }
+
+    header{
+        width:100%;
+        height:0;
+        margin:auto;  
+        
+    }
+
+    .navbar{
+        display: none;
+        
+    }
+
+    .active {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        height: 250px;         
+        background-color:rgb(13, 14, 13);
+        width:100%;
+        transition-delay: 0.3s;
+    }
+    
+    .navbar ul li{
+        list-style-type:none;
+        text-decoration: none;
+        position: relative;
+        top: 0em;
+        padding: 1em;
+        
+    }
+    
+    .navbar a{  
+     color: aliceblue;
+    }
+
+     main{
+       margin: 30% 0 10px;
+       width: 90%;
+      
+    }
+
+    section h1{
+        text-align: center;
+    }
+
+
+
+
+
+}
