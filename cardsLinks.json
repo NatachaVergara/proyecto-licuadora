@@ -1,0 +1,15 @@
+[
+    {
+        "img": "./img/licuadora.png",
+        "h3": "Licuadora",
+        "linkProyecto": "./licuadora.html",
+        "linkTutorial": "https://youtu.be/icczAumbBpc"
+    },
+    {
+        "img": "./img/calculadora.png",
+        "h3": "Calculadora",
+        "linkProyecto": "./calculadora.html",
+        "linkTutorial": "https://youtu.be/0GC-jvB8yNs"
+    }
+   
+]
