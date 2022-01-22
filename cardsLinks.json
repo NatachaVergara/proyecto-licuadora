@@ -10,6 +10,11 @@
         "h3": "Calculadora",
         "linkProyecto": "./calculadora.html",
         "linkTutorial": "https://youtu.be/0GC-jvB8yNs"
-    }
-   
+    },
+    {
+        "img": "./img/piedraPapelTijera.png",
+        "h3": "Juego",
+        "linkProyecto": "https://juegojs.netlify.app/",
+        "linkTutorial": "https://youtu.be/jaVNP3nIAv0"
+    }   
 ]
