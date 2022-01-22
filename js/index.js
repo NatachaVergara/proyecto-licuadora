@@ -19,7 +19,7 @@ fetch('navbarLinks.json')
             navbarLink.innerHTML +=
                 `           
                     <li>
-                    <a href=${link.href} >${link.text} </a>
+                    <a href=${link.href} target="_blank" >${link.text} </a>
                     </li>        
                 `
         })
@@ -52,10 +52,10 @@ fetch('cardsLinks.json')
                         </div>
                         <ul class="sci">
                             <li>
-                                <a href=${card.linkProyecto} >Link</a>
+                                <a href=${card.linkProyecto}>Link</a>
                             </li>
                             <li>
-                                <a href=${card.linkTutorial} target="_blank">Tutorial</a>
+                                <a href=${card.linkTutorial} target="_blank" >Tutorial</a>
                             </li>
 
                         </ul>
