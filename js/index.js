@@ -52,7 +52,7 @@ fetch('cardsLinks.json')
                         </div>
                         <ul class="sci">
                             <li>
-                                <a href=${card.linkProyecto}>Link</a>
+                                <a href=${card.linkProyecto} target="_blank">Link</a>
                             </li>
                             <li>
                                 <a href=${card.linkTutorial} target="_blank" >Tutorial</a>
