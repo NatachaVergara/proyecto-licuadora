@@ -16,5 +16,11 @@
         "h3": "Juego",
         "linkProyecto": "https://juegojs.netlify.app/",
         "linkTutorial": "https://youtu.be/jaVNP3nIAv0"
-    }   
+    }  ,
+    {
+        "img": "./img/piedraPapelTijera.png",
+        "h3": "Contador",
+        "linkProyecto": "./countDown.html",
+        "linkTutorial": "https://youtu.be/jaVNP3nIAv0"
+    }
 ]
