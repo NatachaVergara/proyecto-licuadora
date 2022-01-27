@@ -49,9 +49,14 @@ const countDown = (runTimer) => {
 
 //Funcion que avisa que el contador termino y recarga el sitio
 const finContador = (runTimer) => {
-    if (runTimer <= 0 || runTimer < 1) {
-        timerH.innerHTML = `TIME OUT`
+    if (runTimer <= 10) {
+        timerH.classList.add('finContador')
+        timerH.classList.add('heartbeat')        
+        document.title = timerH.innerHTML
+    }
 
+    if (runTimer <= 0 || runTimer < 1) {
+        timerH.innerHTML = `TIME OUT`        
         document.title = timerH.innerHTML
         clearInterval(countDown)
         setTimeout(() => {
