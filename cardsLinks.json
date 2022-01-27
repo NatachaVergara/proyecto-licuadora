@@ -18,9 +18,9 @@
         "linkTutorial": "https://youtu.be/jaVNP3nIAv0"
     }  ,
     {
-        "img": "./img/piedraPapelTijera.png",
-        "h3": "Contador",
-        "linkProyecto": "./countDown.html",
-        "linkTutorial": "https://youtu.be/jaVNP3nIAv0"
+        "img": "./img/temporalizador.png",
+        "h3": "Temporalizador",
+        "linkProyecto": "./temporalizador.html",
+        "linkTutorial": "https://youtu.be/_a4XCarxwr8"
     }
 ]

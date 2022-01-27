@@ -107,7 +107,7 @@ section::after {
 	z-index: 1; 
 }
 
-
+/*Cards*/
 .container-section {
 	position: relative;
 	display: flex;
@@ -115,7 +115,7 @@ section::after {
 	align-items: center;
 	flex-wrap: wrap;
 	margin: 40px 0;
-    
+   
     
 }
 
@@ -159,6 +159,7 @@ section::after {
 
 .container-section .card .content .imgBx img {
 	position: absolute;
+    border-radius: 20px;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -196,13 +197,14 @@ section::after {
 .container-section .card:hover .sci li {
 	transform: translateY(0px);
 	opacity: 1;
+   
 }
 
 .container-section .card .sci li a {
 	color: rgb(17, 17, 17);
 	font-size: 20px;
 }
-
+/*Fin Cards*/
 
 
 
