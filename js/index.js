@@ -57,7 +57,9 @@ fetch('cardsLinks.json')
                             <li>
                                 <a href=${card.linkTutorial} target="_blank" >Tutorial</a>
                             </li>
-
+                            <li>
+                                <a href=${card.repositorioGit} target="_blank" >Repositorio</a>
+                            </li>
                         </ul>
                     </div>`
         })

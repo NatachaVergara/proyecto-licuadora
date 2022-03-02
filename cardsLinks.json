@@ -3,30 +3,56 @@
         "img": "./img/licuadora.png",
         "h3": "Licuadora",
         "linkProyecto": "./licuadora.html",
-        "linkTutorial": "https://youtu.be/icczAumbBpc"
+        "linkTutorial": "https://youtu.be/icczAumbBpc",
+        "repositorioGit": "#"
     },
     {
         "img": "./img/calculadora.png",
         "h3": "Calculadora",
         "linkProyecto": "./calculadora.html",
-        "linkTutorial": "https://youtu.be/0GC-jvB8yNs"
+        "linkTutorial": "https://youtu.be/0GC-jvB8yNs",
+        "repositorioGit": "#"
     },
     {
         "img": "./img/piedraPapelTijera.png",
         "h3": "Juego",
         "linkProyecto": "https://juegojs.netlify.app/",
-        "linkTutorial": "https://youtu.be/jaVNP3nIAv0"
+        "linkTutorial": "https://youtu.be/jaVNP3nIAv0",
+        "repositorioGit": "https://github.com/NatachaVergara/PiedraPapelTijera.git"
     }  ,
     {
         "img": "./img/temporalizador.png",
         "h3": "Temporalizador",
         "linkProyecto": "./temporalizador.html",
-        "linkTutorial": "https://youtu.be/_a4XCarxwr8"
+        "linkTutorial": "https://youtu.be/_a4XCarxwr8",
+        "repositorioGit": "#"
     },
     {
         "img": "./img/sistemaJubilacion.png",
         "h3": "Sistema de Jubilacion - PDTC",
         "linkProyecto": "https://ejerciciojubilaciones.netlify.app/",
-        "linkTutorial": "#"
+        "linkTutorial": "#",
+        "repositorioGit": "https://github.com/NatachaVergara/Jubilaciones.git"
+    },
+    {
+        "img": "./img/formulario-con-modal.png",
+        "h3": "Formulario con modal",
+        "linkProyecto": "https://form-con-modal.netlify.app/",
+        "linkTutorial": "#",
+        "repositorioGit": "https://github.com/NatachaVergara/formulario_con_modal.git"
+    },
+    {
+        "img": "./img/app-del-clima.png",
+        "h3": "App del clima",
+        "linkProyecto": "https://app-clima-clase19.netlify.app/",
+        "linkTutorial": "#",
+        "repositorioGit": "https://github.com/NatachaVergara/aplicacion-del-clima-clase19.git"
+    },
+    {
+        "img": "./img/autos-filtrados.png",
+        "h3": "Autos Filtrados",
+        "linkProyecto": "https://ejercicio-clase-18-filtrar-autos.netlify.app/",
+        "linkTutorial": "#",
+        "repositorioGit": "https://github.com/NatachaVergara/filtrar_autos"
     }
 ]

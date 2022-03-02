@@ -1,6 +1,6 @@
 [
     {
-        "href": "https://portfolio-personal-1121.netlify.app",
+        "href": "https://nvergara-portfolio.netlify.app/",
         "text": "Portfolio"
     },
     {
@@ -12,7 +12,7 @@
         "text": "Proyectos JS"
     },
     {
-        "href": "#",
-        "text": "Proyectos en REACT"
+        "href": "https://busco-libro-app.netlify.app/",
+        "text": "Busco Libro App"
     }
 ]
