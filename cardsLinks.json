@@ -54,5 +54,26 @@
         "linkProyecto": "https://ejercicio-clase-18-filtrar-autos.netlify.app/",
         "linkTutorial": "https://github.com/NatachaVergara/filtrar_autos",
         "repositorioGit": "https://github.com/NatachaVergara/filtrar_autos"
+    }, 
+    {
+        "img": "./img/lista-tareas-react.png",
+        "h3": "Lista de tareas - REACT",
+        "linkProyecto": "https://lista-tareas-nv.netlify.app/",
+        "linkTutorial": "https://github.com/NatachaVergara/react-lista-de-tareas-v1-nv",
+        "repositorioGit": "https://github.com/NatachaVergara/react-lista-de-tareas-v1-nv"
+    },
+    {
+        "img": "./img/busco-libro.png",
+        "h3": "Busco Libro App - REACT",
+        "linkProyecto": "https://busco-libro-app.netlify.app/",
+        "linkTutorial": "https://github.com/NatachaVergara/busco-libro-vergara",
+        "repositorioGit": "https://github.com/NatachaVergara/busco-libro-vergara"
+    },
+    {
+        "img": "./img/portfolio.png",
+        "h3": "Porfolio Personal - REACT",
+        "linkProyecto": "https://nvergara-portfolio.netlify.app/",
+        "linkTutorial": "https://github.com/NatachaVergara/react-portfolio",
+        "repositorioGit": "https://github.com/NatachaVergara/react-portfolio"
     }
 ]
