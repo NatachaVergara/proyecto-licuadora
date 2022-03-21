@@ -4,76 +4,87 @@
         "h3": "Licuadora",
         "linkProyecto": "https://proyecto-licuadora.netlify.app",
         "linkTutorial": "https://youtu.be/icczAumbBpc",
-        "repositorioGit": "https://github.com/NatachaVergara/licuadora.git"
+        "repositorioGit": "https://github.com/NatachaVergara/licuadora.git",
+        "alt": "Licuadora"
     },
     {
         "img": "./img/calculadora.png",
         "h3": "Calculadora",
         "linkProyecto": "https://calculadora-pr.netlify.app/",
         "linkTutorial": "https://youtu.be/0GC-jvB8yNs",
-        "repositorioGit": "https://github.com/NatachaVergara/calculadora.git"
+        "repositorioGit": "https://github.com/NatachaVergara/calculadora.git",
+        "alt": "Caculadora"
     },
     {
         "img": "./img/piedraPapelTijera.png",
         "h3": "Juego",
         "linkProyecto": "https://juegojs.netlify.app/",
         "linkTutorial": "https://youtu.be/jaVNP3nIAv0",
-        "repositorioGit": "https://github.com/NatachaVergara/PiedraPapelTijera.git"
+        "repositorioGit": "https://github.com/NatachaVergara/PiedraPapelTijera.git",
+        "alt": "Juego"
     }  ,
     {
         "img": "./img/temporalizador.png",
         "h3": "Temporalizador",
         "linkProyecto": "https://proyecto-temporalizador.netlify.app/",
         "linkTutorial": "https://youtu.be/_a4XCarxwr8",
-        "repositorioGit": "https://github.com/NatachaVergara/temporalizador.git"
+        "repositorioGit": "https://github.com/NatachaVergara/temporalizador.git",
+        "alt": "Temporalizador"
     },
     {
         "img": "./img/sistemaJubilacion.png",
         "h3": "Sistema de Jubilacion - PDTC",
         "linkProyecto": "https://ejerciciojubilaciones.netlify.app/",
         "linkTutorial": "https://github.com/NatachaVergara/Jubilaciones.git",
-        "repositorioGit": "https://github.com/NatachaVergara/Jubilaciones.git"
+        "repositorioGit": "https://github.com/NatachaVergara/Jubilaciones.git",
+        "alt": "Sistema de jubilaciones"
     },
     {
         "img": "./img/formulario-con-modal.png",
         "h3": "Formulario con modal",
         "linkProyecto": "https://form-con-modal.netlify.app/",
         "linkTutorial": "#",
-        "repositorioGit": "https://github.com/NatachaVergara/formulario_con_modal.git"
+        "repositorioGit": "https://github.com/NatachaVergara/formulario_con_modal.git",
+        "alt": "Formulario con modal"
     },
     {
         "img": "./img/app-del-clima.png",
         "h3": "App del clima",
         "linkProyecto": "https://app-clima-clase19.netlify.app/",
         "linkTutorial": "https://github.com/NatachaVergara/aplicacion-del-clima-clase19.git",
-        "repositorioGit": "https://github.com/NatachaVergara/aplicacion-del-clima-clase19.git"
+        "repositorioGit": "https://github.com/NatachaVergara/aplicacion-del-clima-clase19.git",
+        "alt": "App del clima"
     },
     {
         "img": "./img/autos-filtrados.png",
         "h3": "Autos Filtrados",
         "linkProyecto": "https://ejercicio-clase-18-filtrar-autos.netlify.app/",
         "linkTutorial": "https://github.com/NatachaVergara/filtrar_autos",
-        "repositorioGit": "https://github.com/NatachaVergara/filtrar_autos"
+        "repositorioGit": "https://github.com/NatachaVergara/filtrar_autos",
+        "alt": "Autos con filtrado"
     }, 
     {
         "img": "./img/lista-tareas-react.png",
         "h3": "Lista de tareas - REACT",
         "linkProyecto": "https://lista-tareas-nv.netlify.app/",
         "linkTutorial": "https://github.com/NatachaVergara/react-lista-de-tareas-v1-nv",
-        "repositorioGit": "https://github.com/NatachaVergara/react-lista-de-tareas-v1-nv"
+        "repositorioGit": "https://github.com/NatachaVergara/react-lista-de-tareas-v1-nv",
+        "alt": "Lista de tareas"
     },
     {
         "img": "./img/busco-libro.png",
         "h3": "Busco Libro App - REACT",
         "linkProyecto": "https://busco-libro-app.netlify.app/",
         "linkTutorial": "https://github.com/NatachaVergara/busco-libro-vergara",
-        "repositorioGit": "https://github.com/NatachaVergara/busco-libro-vergara"
+        "repositorioGit": "https://github.com/NatachaVergara/busco-libro-vergara",
+        "alt": "Busco libro app"
     },
     {
         "img": "./img/portfolio.png",
-        "h3": "Porfolio Personal - REACT",
+        "h3": "Portfolio Personal - REACT",
         "linkProyecto": "https://nvergara-portfolio.netlify.app/",
         "linkTutorial": "https://github.com/NatachaVergara/react-portfolio",
-        "repositorioGit": "https://github.com/NatachaVergara/react-portfolio"
+        "repositorioGit": "https://github.com/NatachaVergara/react-portfolio",
+        "alt": "Portfolio personal"
     }
 ]

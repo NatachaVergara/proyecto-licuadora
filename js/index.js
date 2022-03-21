@@ -44,7 +44,7 @@ fetch('cardsLinks.json')
         <div class="card">
                         <div class="content">
                             <div class="imgBx">
-                                <img src=${card.img}>
+                                <img src=${card.img} alt=${card.alt}>
                             </div>
                             <div class="contentBx">
                                 <h3>${card.h3}  </h3>
